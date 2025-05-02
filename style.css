@@ -71,18 +71,23 @@
 
 .app__itemCube {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 32px;
+    font-size: 29px;
     display: flex;
     flex-direction: column;
     color: rgb(217, 230, 230);
+    border: 1px dashed #e74c4c ;
+    border-radius: 10px;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 6px 20px 6px 20px;
+    margin: -10px;
 }
 
 .app__column {
-
-    align-items: center;
+    color: #d8d8d8;
 }
 .app__data {
-
+    color: #fff;
 }
 
 .app__footer {

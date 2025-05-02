@@ -1,0 +1,30 @@
+{
+  "name": "sakila-actor-crud",
+  "version": "1.0.0",
+  "description": "A React application for performing CRUD operations on the actor table from the Sakila MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "crud",
+    "sakila",
+    "mysql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "jest": "^26.6.0"
+  }
+}
